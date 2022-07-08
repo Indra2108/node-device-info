@@ -6,7 +6,7 @@ Simple Device Information using NodeJS
 ```
 git clone https://github.com/Indra2108/node-device-info.git
 cd node-device-info
-node index.js
+node src/index.js
 ```
 ## Screenshot
-![Gambar](Screenshot.png)
+![Gambar](screenshot/Screenshot.png)
