@@ -39,6 +39,7 @@ const cpus = () => {
 }
 
 module.exports = {
+    "NodeJS Version": process.version,
     "System": {
         "Type": os.type(),
         "Platform": os.platform(),
@@ -50,5 +51,5 @@ module.exports = {
         "Total Memory": `${Math.floor(os.totalmem() / 1024 / 1024)} MB`,
         "Free Memory": `${Math.floor(os.freemem() / 1024 / 1024)} MB`,
     },
-    "Uptime": uptime()
+    "Uptime": uptime(),
 }
